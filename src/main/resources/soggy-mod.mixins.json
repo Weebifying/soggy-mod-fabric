@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "package": "wb.weebify.soggymod.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "MusicTrackerAccessor",
+    "MusicTrackerMixin",
+    "TitleScreenMixin"
+  ]
+}

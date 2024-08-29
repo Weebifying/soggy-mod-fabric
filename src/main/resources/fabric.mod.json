@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "soggy-mod",
+	"version": "${version}",
+	"name": "Soggy Mod",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Weebify"
+	],
+	"contact": {
+		"sources": "https://github.com/Weebifying/soggy-mod-fabric"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/soggy-mod/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"wb.weebify.soggymod.SoggyMod"
+		]
+	},
+	"mixins": [
+		"soggy-mod.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.3",
+		"minecraft": "~1.21",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
